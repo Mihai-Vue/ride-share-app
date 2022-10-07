@@ -1,12 +1,9 @@
-
-
-export default function Card() {
-    const url = "##"
-    return (
-        <div>
-            <img/>
-            <h3>Keep your tips</h3>
-            <p>Earn tips from your passengers and keep the whole amount—they’re yours.</p>
-        </div>
-    )
+export default function Card(props) {
+  return (
+    <div>
+      <img src={`../icons/${props.logo}`} alt={props.logoAlt} />
+      <h3>{props.title}</h3>
+      <p>{props.description1}</p>
+    </div>
+  );
 }
