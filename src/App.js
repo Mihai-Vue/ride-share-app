@@ -4,8 +4,8 @@ import Main from "./components/Main"
 import Card from "./components/Card";
 import PhoneCarousel from "./components/PhoneCarousel";
 import QuestionArea from "./components/QuestionArea";
-import mainData from "./data/mainData";
-import cardData from "./data/cardData";
+import {mainData} from "./data/mainData";
+import {cardData} from "./data/cardData";
 
 
 function App() {

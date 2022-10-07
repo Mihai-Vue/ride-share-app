@@ -1,4 +1,4 @@
-export default [
+export const cardData = [
   {
     id: 1,
     logo: "dollar_bag_icon.webp",

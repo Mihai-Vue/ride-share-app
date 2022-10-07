@@ -1,4 +1,4 @@
-export default [
+export const mainData = [
     {
         id: 1,
         title: 'What is Lyft?',
